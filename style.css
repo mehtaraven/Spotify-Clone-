@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+body{
+    background-color:gray;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black ;
+    color: aliceblue;
+    align-items: center;
+}
+.brand img{
+    width: 44px ;
+    padding: 0 8px;
+    
+}   
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding:0 12px ; 
+    cursor: pointer;
+    margin-right: 10px;
+}
+.container{
+    min-height: 69vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+    font-family:'Varela Round',sans-serif ;
+    margin: 14px auto;
+    width: 60%;
+    height: 50%;
+    border-radius: 12px;
+    padding: 15px;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/478/602/376/black-background-minimalism-mountains-sunset-wallpaper-preview.jpg');
+    background-position: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.songcontainerlist h2{
+    position: relative;
+    left: 20vw;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;   
+    cursor: pointer; 
+}
+.icons{
+    margin-top:10px ;
+}
+.icons i{
+    color: white;
+    cursor: pointer;
+    padding: 1px 10px;
+    border:  0px;
+    margin: 0px 20px;
+    border-color: white;
+    border-style:solid;
+    border-radius: 5px;
+    /* background-color: black; */
+
+}
+.songItem{
+    display: flex;
+    height: 40px;
+    background-color: white;
+    width: 30%;
+    color: black;
+    margin: 12px ;
+    font-weight: bolder;
+    padding: 0px 6px;
+    display:  flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.songItem img {
+    /* border-radius: 10px; */
+    height: 35px;
+    width: auto;
+    margin: 23px 0px;
+    border-radius: 12px;
+}
+.timestamp{
+    margin: 0px 23px;
+}
+.songItem i {
+    cursor: pointer;
+}
+.songName{
+    padding-left: 2px;
+}
+.songinfo img{
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.songinfo {
+    font-family:'Varela Round',sans-serif ;
+    position: absolute;
+    left: 8vw ;
+    display:  flex;
+    align-items: center;
+    margin-top: 20px;
+}
